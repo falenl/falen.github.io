@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+  var count = 5;
+  setInterval(function(){
+    count--;
+    document.getElementById('countDown').innerHTML = count;
+    if (count == 0) {
+      window.location = 'https://falenl.github.io';
+    }
+  },1000);
+
+  </script>
+
+  <title>Thanks</title>
+</head>
+<body>
+  <div class="container normalFont">
+    <div class="col" style="margin-top:80px">
+      <div class="lightGray col-md-8 offset-md-2 p-4">
+        <h1 class="text-primary font-weight-bold">Thank you for getting in touch!</h1>
+        <h4>I will reply to your message shortly.</h4>
+      </div>
+    </div>
+    <div class="col">
+      <div class="col-md-8 offset-md-2">
+        Redirecting to home page in <span id='countDown'>5</span>. Click <a href="https://falenl.github.io">here</a> if it does not redirect.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
