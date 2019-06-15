@@ -169,7 +169,7 @@ a .fa-github{
 }
 .main-timeline .description{
     font-size: 15px;
-    color: #7f8386;
+    color: #666;
     line-height: 25px;
 }
 .main-timeline .timeline:nth-child(2){ margin-top: 140px; }
