@@ -407,3 +407,7 @@ a .fa-github{
 .text-biru{
   color: #0077ba !important;
 }
+
+.card-description ul{
+line-height:200%
+}
